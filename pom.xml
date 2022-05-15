@@ -118,19 +118,43 @@
 			<groupId>net.imagej</groupId>
 			<artifactId>imagej-common</artifactId>
 		</dependency>
-
+		<!-- specific CellIntenTSAn -->
+	    <dependency>
+	      <groupId>net.imagej</groupId>
+	      <artifactId>imagej-plugins-commands</artifactId>
+	    </dependency>
+	    
 		<!-- ImgLib2 dependencies -->
 		<dependency>
 			<groupId>net.imglib2</groupId>
 			<artifactId>imglib2</artifactId>
-		</dependency>
+		</dependency>  
+		<!-- specific CellIntenTSAn -->  
+		<dependency>
+	      <groupId>net.imglib2</groupId>
+	      <artifactId>imglib2-ij</artifactId>
+	    </dependency>
 
 		<!-- SciJava dependencies -->
 		<dependency>
 			<groupId>org.scijava</groupId>
 			<artifactId>scijava-common</artifactId>
 		</dependency>
-
+		<!-- specific CellIntenTSAn -->
+		<dependency>
+      		<groupId>org.scijava</groupId>
+      		<artifactId>scijava-plugins-commands</artifactId>
+    	</dependency>
+    	<dependency>
+     		<groupId>org.scijava</groupId>
+     		<artifactId>scijava-plugins-io-table</artifactId>
+   		</dependency>
+		<!--	<dependency>
+  	  		<groupId>org.scijava</groupId>
+  	  		<artifactId>TrackMate_extras</artifactId>
+  	  		<version>0.0.4</version>
+		</dependency> -->		
+		
 		<!-- Third party dependencies -->
 		<dependency>
 			<groupId>org.jgrapht</groupId>
@@ -140,5 +164,57 @@
 			<groupId>org.jdom</groupId>
 			<artifactId>jdom2</artifactId>
 		</dependency>
+		<!-- specific CellIntenTSAn -->
+		<dependency>
+	    	<groupId>javax.json</groupId>
+	    	<artifactId>javax.json-api</artifactId>
+	    	<version>1.0</version>
+		</dependency>
+		<dependency>
+	    	<groupId>org.apache.commons</groupId>
+	    	<artifactId>commons-csv</artifactId>
+	    	<version>1.8</version>
+	    </dependency>
+		<dependency>
+	    	<groupId>org.apache.commons</groupId>
+	    	<artifactId>commons-math3</artifactId>
+	   	</dependency>
+	   	<dependency>
+	    	<groupId>org.apache.commons</groupId>
+	    	<artifactId>commons-lang3</artifactId>
+	   	</dependency>
+	   	<dependency>
+	    	<groupId>commons-io</groupId>
+	    	<artifactId>commons-io</artifactId>
+	    </dependency>
+		<dependency>
+	 		<groupId>com.google.code.gson</groupId>
+	  		<artifactId>gson</artifactId>
+	  	</dependency>
+	  	<dependency>
+	 	 	<groupId>nz.ac.waikato.cms.weka</groupId>
+	  		<artifactId>weka-dev</artifactId>
+	  	</dependency>
+		<dependency>
+	    	<groupId>org.zeroturnaround</groupId>
+	    	<artifactId>zt-zip</artifactId>
+	    	<version>1.14</version>
+		</dependency>
+	<!--<dependency>
+	  		<groupId>org.knowm.xchart</groupId>
+	  		<artifactId>xchart-parent</artifactId>
+	  		<version>3.6.6</version>
+	  		<type>pom</type>
+		</dependency>	
+	  	<dependency>
+	  		<groupId>org.knowm.xchart</groupId>
+	 		<artifactId>xchart</artifactId>
+			<version>3.6.6</version>
+		</dependency> -->
+	<!-- 	<dependency> -->
+	<!--   		<groupId>org.knowm.xchart</groupId> -->
+	<!--  		<artifactId>xchart-demo</artifactId> -->
+	<!--   		<version>3.6.6</version> -->
+	<!-- 	</dependency> -->
 	</dependencies>
 </project>
