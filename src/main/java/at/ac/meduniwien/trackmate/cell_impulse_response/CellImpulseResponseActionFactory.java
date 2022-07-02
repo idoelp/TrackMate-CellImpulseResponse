@@ -1,4 +1,4 @@
-package plugin.trackmate.examples.action;
+package at.ac.meduniwien.trackmate.cell_impulse_response;
 
 import javax.swing.ImageIcon;
 
@@ -11,14 +11,14 @@ import ij.ImageJ;
 import ij.ImagePlus;
 
 @Plugin( type = TrackMateActionFactory.class )
-public class LaunchEventLoggerActionFactory implements TrackMateActionFactory
+public class CellImpulseResponseActionFactory implements TrackMateActionFactory
 {
 
-	private static final String INFO_TEXT = "<html>This action will launch a new event logger, that uses the ImageJ log window to append TrackMate events.</html>";
+	private static final String INFO_TEXT = "<html>This action analyses the track from the perspective of an impulse response. Generates new Spot, Edge and Track Features and exports the data as .csv, .tif and .fcs.</html>";
 
-	private static final String KEY = "LAUNCH_EVENT_LOGGER";
+	private static final String KEY = "CELL_IMPULSE_RESPONSE";
 
-	private static final String NAME = "Launch the event logger";
+	private static final String NAME = "Cell impulse response";
 
 	@Override
 	public String getInfoText()
@@ -47,7 +47,7 @@ public class LaunchEventLoggerActionFactory implements TrackMateActionFactory
 	@Override
 	public TrackMateAction create()
 	{
-		return new LaunchEventLoggerAction();
+		return new CellImpulseResponseAction();
 	}
 
 	public static void main( final String[] args )

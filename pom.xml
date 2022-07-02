@@ -12,11 +12,11 @@
 		<relativePath />
 	</parent>
 
-	<groupId>sc.fiji</groupId>
-	<artifactId>TrackMate_examples</artifactId>
-	<version>2.0.0-SNAPSHOT</version>
+	<groupId>at.ac.meduniwien.huppalab</groupId>
+	<artifactId>TrackMate_CellImpulseResponse</artifactId>
+	<version>0.1.0-SNAPSHOT</version>
 
-	<name>TrackMate-CellImpulseResponse</name>
+	<name>TrackMate_CellImpulseResponse</name>
 	<description>TrackMate extension for the analysis of cell time-series impulse response, focused on the rise of plasmatic calcium (response) in T-cells as they recognize their antigen (impulse)</description>
 	<url>https://www.meduniwien.ac.at/hp/hai/forschung/molekulare-immunologie/huppa-lab/software/CellIntenTSAn</url>
 	<inceptionYear>2022</inceptionYear>

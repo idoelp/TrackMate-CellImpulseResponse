@@ -1,0 +1,18 @@
+package at.ac.meduniwien.trackmate.cell_impulse_response;
+
+public enum FeatsExpanded {
+		DIF_X,
+		DIF_Y,
+		DIF_Z,
+		VELOCITY,
+		VELOCITY_SMOOTH,
+		ACCELERATION,
+		INTENSITY,
+		INTENSITY_SMOOTH,
+		DIF_INTENSITY_SMOOTH,
+		DIF_DIF_INTENSITY_SMOOTH,
+		FFT_INTENSITY_SMOOTH,
+		MASK,
+		HI_STATE,
+		INTENSITY_SMOOTH_NORM
+}
